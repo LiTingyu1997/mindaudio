@@ -1,5 +1,5 @@
 import mindspore as ms
-from mindspore import ops, nn
+from mindspore import nn, ops
 
 _grad_scale = ops.MultitypeFuncGraph("grad_scale")
 reciprocal = ops.Reciprocal()
@@ -13,8 +13,12 @@ def tensor_grad_scale(scale, grad):
 class TrainOneStepWithLossScaleCell(nn.TrainOneStepWithLossScaleCell):
     r"""Network training with loss scaling"""
 
-    def __init__(self, network, optimizer, scale_sense, clip_grad=False, force_update=False):
-        super(TrainOneStepWithLossScaleCell, self).__init__(network, optimizer, scale_sense)
+    def __init__(
+        self, network, optimizer, scale_sense, clip_grad=False, force_update=False
+    ):
+        super(TrainOneStepWithLossScaleCell, self).__init__(
+            network, optimizer, scale_sense
+        )
         self.clip_grad = clip_grad
         self.force_update = ms.Tensor(force_update, ms.bool_)
 
