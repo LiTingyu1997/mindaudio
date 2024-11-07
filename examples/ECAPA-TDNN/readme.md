@@ -1,9 +1,5 @@
 # Speaker verification - Use ECAPA-TDNN to extract speaker identification
 
-## Requirements
-| mindspore     |   ascend driver        | firmware     |  cann toolkit/kernel    |
-|:-------------:|:----------------------:|:------------:|:-----------------------:|
-|     2.0.0     |   23.0.RC2             | 6.4.12.1.241 |  6.3.RC1                |
 
 ## Introduction
 
@@ -30,6 +26,12 @@ In view of some advantages and disadvantages of the current X-Vector-based voice
   2.Data augmentation：add_babble, add_noise, add_reverb, drop_chunk, drop_freq, speed_perturb。
 
      Current accuracy can be obtained using 5X data enhancement (which requires 2.6 terabytes of disk space). If you want to achieve EER(0.8%), you need 50x data enhancement, just change the hyperparameter 'number of epochs' in the 'ecapatdnn.yaml' file to 10 (50x data enhancement requires 26T disk space).
+
+## Requirements
+| mindspore     |   ascend driver        | firmware     |  cann toolkit/kernel    |
+|:-------------:|:----------------------:|:------------:|:-----------------------:|
+|     2.0.0     |   23.0.RC2             | 6.4.12.1.241 |  6.3.RC1                |
+
 
 ## Usage Steps
 
@@ -114,4 +116,4 @@ Experiments are tested on ascend 910 with mindspore 2.0.0 graph mode:
 
 | model name | cards | batch size | s/step | recipe | weight | eer | eer with s-norm |
 |:----------:|:-----:|:----------:|:------:|:------:|:------:|:---:|:---------------:|
-| ecapa-tdnn |   8   |   32       |  0.38  | [yaml](https://github.com/mindspore-lab/mindaudio/blob/main/examples/ECAPA-TDNN/ecapatdnn.yaml) | [weights](https://download.mindspore.cn/toolkits/mindaudio/ecapatdnn/ecapatdnn_vox12.ckpt)| 1.50% | 1.69%  |
+| ecapa-tdnn |   8   |   32       |  0.38  | [yaml](https://github.com/mindspore-lab/mindaudio/blob/main/examples/ECAPA-TDNN/ecapatdnn.yaml) | [weights](https://download.mindspore.cn/toolkits/mindaudio/ecapatdnn/ecapatdnn_vox12.ckpt)| 1.69% | 1.50%   |

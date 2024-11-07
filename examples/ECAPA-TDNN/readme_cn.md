@@ -1,9 +1,5 @@
-# 说话人验证--使用ECAPA-TDNN提取说话人特证
+# 说话人验证--使用ECAPA-TDNN提取说话人特征
 
-## 版本要求
-| mindspore     |   ascend driver        | firmware     |  cann toolkit/kernel    |
-|:-------------:|:----------------------:|:------------:|:-----------------------:|
-|     2.0.0     |   23.0.RC2             | 6.4.12.1.241 |  6.3.RC1                |
 
 ## 介绍
 
@@ -32,6 +28,12 @@ ECAPA-TDNN由比利时哥特大学Desplanques等人于2020年提出，通过引�
   2.数据增强：add_babble, add_noise, add_reverb, drop_chunk, drop_freq, speed_perturb。
 
      当前使用5倍数据增强（需要2.6T磁盘空间）可以得到当前精度。如果想达到EER(0.8%), 需要50倍数据增强, 只需要把`ecapatdnn.yaml`文件中的超参数 `number_of_epochs` 修改为10即可（ 50倍数据增强需要26T磁盘空间）。
+
+## 版本要求
+| mindspore     |   ascend driver        | firmware     |  cann toolkit/kernel    |
+|:-------------:|:----------------------:|:------------:|:-----------------------:|
+|     2.0.0     |   23.0.RC2             | 6.4.12.1.241 |  6.3.RC1                |
+
 
 ## 使用步骤
 
@@ -121,4 +123,4 @@ python speaker_verification_cosine.py --need_generate_data=False
 
 | model name | cards | batch size | s/step | recipe | weight | eer | eer with s-norm |
 |:----------:|:-----:|:----------:|:------:|:------:|:------:|:---:|:---------------:|
-| deepspeech2|   8   |   32       |  0.38  | [yaml](https://github.com/mindspore-lab/mindaudio/blob/main/examples/ECAPA-TDNN/ecapatdnn.yaml) | [weights](https://download.mindspore.cn/toolkits/mindaudio/ecapatdnn/ecapatdnn_vox12.ckpt)| 1.50% | 1.69%  |
+| deepspeech2|   8   |   32       |  0.38  | [yaml](https://github.com/mindspore-lab/mindaudio/blob/main/examples/ECAPA-TDNN/ecapatdnn.yaml) | [weights](https://download.mindspore.cn/toolkits/mindaudio/ecapatdnn/ecapatdnn_vox12.ckpt)| 1.69% | 1.50%   |
