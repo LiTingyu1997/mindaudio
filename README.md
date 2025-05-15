@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# MindAudio
+# MindSpore AUDIO
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mindspore-lab/mindaudio/ut_test.yaml)
 ![GitHub issues](https://img.shields.io/github/issues/mindspore-lab/mindaudio)
@@ -20,7 +20,7 @@ English | [中文](README_CN.md)
 
 ## Introduction
 
-MindAudio is a toolbox of audio models and algorithms based on [MindSpore](https://www.mindspore.cn/). It provides a series of API for common audio data processing,data enhancement,feature extraction, so that users can preprocess data conveniently. Also provides examples to show how to build audio deep learning models with mindaudio.
+MindSpore AUDIO is a toolbox of audio models and algorithms based on [MindSpore](https://www.mindspore.cn/). It provides a series of API for common audio data processing,data enhancement,feature extraction, so that users can preprocess data conveniently. Also provides examples to show how to build audio deep learning models with mindaudio.
 
 The following is the corresponding `mindaudio` versions and supported `mindspore` versions.
 
@@ -46,7 +46,7 @@ The following is the corresponding `mindaudio` versions and supported `mindspore
 
 ### Install with PyPI
 
-The released version of MindAudio can be installed via `PyPI` as follows:
+The released version of MindSpore AUDIO can be installed via `PyPI` as follows:
 
 ```shell
 pip install mindaudio
@@ -54,7 +54,7 @@ pip install mindaudio
 
 ### Install from Source
 
-The latest version of MindAudio can be installed as follows:
+The latest version of MindSpore AUDIO can be installed as follows:
 
 ```shell
 git clone https://github.com/mindspore-lab/mindaudio.git
@@ -67,7 +67,7 @@ python setup.py install
 
 ###
 
-MindAudio provides a series of commonly used audio data processing apis, which can be easily invoked for data analysis and feature extraction.
+MindSpore AUDIO provides a series of commonly used audio data processing apis, which can be easily invoked for data analysis and feature extraction.
 
 ```python
 >>> import mindaudio.data.io as io

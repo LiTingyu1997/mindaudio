@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# MindAudio
+# MindSpore AUDIO
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mindspore-lab/mindaudio/ut_test.yaml)
 ![GitHub issues](https://img.shields.io/github/issues/mindspore-lab/mindaudio)
@@ -18,7 +18,7 @@
 </div>
 
 ## 介绍
-MindAudio 是基于 [MindSpore](https://www.mindspore.cn/) 的音频模型和算法工具箱。它提供了一系列用于常见音频数据处理、数据增强、特征提取的 API，方便用户对数据进行预处理。此外，它还提供了一些示例，展示如何利用 mindaudio 建立音频深度学习模型。
+MindSpore AUDIO 是基于 [MindSpore](https://www.mindspore.cn/) 的音频模型和算法工具箱。它提供了一系列用于常见音频数据处理、数据增强、特征提取的 API，方便用户对数据进行预处理。此外，它还提供了一些示例，展示如何利用 mindaudio 建立音频深度学习模型。
 
 下表显示了相应的 `mindaudio` 版本和支持的 `mindspore` 版本。
 
@@ -44,14 +44,14 @@ MindAudio 是基于 [MindSpore](https://www.mindspore.cn/) 的音频模型和算
 
 ### Pypi安装
 
-MindAudio的发布版本可以通过`PyPI`安装:
+MindSpore AUDIO的发布版本可以通过`PyPI`安装:
 
 ```shell
 pip install mindaudio
 ```
 
 ### 源码安装
-最新版本的 MindAudio 可以通过如下方式安装：
+最新版本的 MindSpore AUDIO 可以通过如下方式安装：
 
 ```shell
 git clone https://github.com/mindspore-lab/mindaudio.git
@@ -64,7 +64,7 @@ python setup.py install
 
 ###
 
-MindAudio 提供了一系列常用的音频数据处理 APIs，可以轻松调用这些 APIs 进行数据分析和特征提取。
+MindSpore AUDIO 提供了一系列常用的音频数据处理 APIs，可以轻松调用这些 APIs 进行数据分析和特征提取。
 
 ```python
 >>> import mindaudio.data.io as io
@@ -93,16 +93,16 @@ MindAudio 提供了一系列常用的音频数据处理 APIs，可以轻松调�
 
 
 ## 贡献方式
-我们感谢开发者用户的所有贡献，一起让 MindAudio 变得更好。
+我们感谢开发者用户的所有贡献，一起让 MindSpore AUDIO 变得更好。
 贡献指南请参考[CONTRIBUTING.md](CONTRIBUTING.md) 。
 
 ## 许可证
 
-MindAudio 遵循[Apache License 2.0](LICENSE)开源协议.
+MindSpore AUDIO 遵循[Apache License 2.0](LICENSE)开源协议.
 
 ## 引用
 
-如果你觉得 MindAudio 对你的项目有帮助，请考虑引用：
+如果你觉得 MindSpore AUDIO 对你的项目有帮助，请考虑引用：
 
 ```latex
 @misc{MindSpore Audio 2022,
