@@ -1,4 +1,5 @@
-"""ASR inference process.
+"""
+ASR inference process.
 
 python predict.py --config_path <CONFIG_FILE>
 """

@@ -1,3 +1,5 @@
+# AudioDataLoader in mindspore.
+# Adapted from https://github.com/kaituoxu/Conv-TasNet/blob/master/src/data.py
 """
 Logic:
 1. AudioDataLoader generate a minibatch from AudioDataset, the size of this
@@ -16,14 +18,11 @@ Output:
     Each targets's shape is B x C x T
 """
 
-import argparse
 import json
 import math
 import os
 
-import mindspore.dataset as ds
 import numpy as np
-from mindspore import context
 
 import mindaudio.data.io as io
 
@@ -176,27 +175,3 @@ class DatasetGenerator:
 
         sources_pad = sources_pad.transpose((0, 2, 1))
         return mixtures_pad, ilens, sources_pad
-
-
-if __name__ == "__main__":
-    context.set_context(mode=context.GRAPH_MODE, device_target="Ascend", device_id=4)
-    args = parser.parse_args()
-    print(args)
-    tr_dataset = DatasetGenerator(
-        args.train_dir,
-        args.batch_size,
-        sample_rate=args.sample_rate,
-        segment=args.segment,
-    )
-    dataset = ds.GeneratorDataset(
-        tr_dataset, ["mixture", "lens", "sources"], shuffle=False
-    )
-    dataset = dataset.batch(batch_size=5)
-    iter_per_epoch = dataset.get_dataset_size()
-    print(iter_per_epoch)
-    h = 0
-    for data in dataset.create_dict_iterator():
-        h += 1
-        print(data["mixture"])
-        print(data["lens"])
-        print(data["sources"])

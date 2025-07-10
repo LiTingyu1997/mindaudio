@@ -1,3 +1,6 @@
+# Evaluation of TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/TasNet/blob/master/src/evaluate.py
+
 import argparse
 import json
 import os
@@ -6,14 +9,7 @@ import mindspore
 import mindspore.dataset as ds
 import mindspore.ops as ops
 from data import DatasetGenerator
-from mindspore import (
-    Parameter,
-    Tensor,
-    context,
-    load_checkpoint,
-    load_param_into_net,
-    set_seed,
-)
+from mindspore import context, load_checkpoint, load_param_into_net, set_seed
 
 import mindaudio.data.io as io
 from mindaudio.loss.separation_loss import Separation_Loss

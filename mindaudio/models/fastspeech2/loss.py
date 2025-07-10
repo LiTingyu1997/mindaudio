@@ -1,3 +1,6 @@
+# FastSpeech2Loss in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/model/loss.py
+
 import mindspore as ms
 import mindspore.nn as nn
 import mindspore.ops as ops

@@ -1,3 +1,6 @@
+# Models in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/transformer/Models.py
+
 from mindspore import Tensor
 from mindspore import dtype as mstype
 from mindspore import nn, ops

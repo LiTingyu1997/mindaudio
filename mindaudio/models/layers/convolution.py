@@ -1,3 +1,5 @@
+# Convolution in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/convolution.py
 """ConvolutionModule definition."""
 
 from typing import Tuple

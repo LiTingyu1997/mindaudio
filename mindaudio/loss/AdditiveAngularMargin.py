@@ -1,3 +1,6 @@
+# AdditiveAngularMargin in mindspore.
+# Adapted from https://github.com/speechbrain/speechbrain/blob/develop/speechbrain/nnet/losses.py
+
 import math
 
 import mindspore as ms

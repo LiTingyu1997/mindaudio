@@ -1,3 +1,6 @@
+# Synthesize in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/synthesize.py
+
 import argparse
 import os
 import re

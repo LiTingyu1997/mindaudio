@@ -1,3 +1,6 @@
+# Sublayers in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/transformer/SubLayers.py
+
 import numpy as np
 from mindspore import dtype as mstype
 from mindspore import nn, ops

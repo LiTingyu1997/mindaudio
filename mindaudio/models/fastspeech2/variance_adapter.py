@@ -1,3 +1,6 @@
+# VarianceAdaptor with mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/model/modules.py
+
 import mindspore as ms
 import mindspore.nn as nn
 import numpy as np

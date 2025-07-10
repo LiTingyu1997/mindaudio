@@ -1,4 +1,6 @@
-""" TasNet """
+# TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/TasNet/blob/master/src/tasnet.py
+
 import mindspore
 from mindspore import nn, ops
 

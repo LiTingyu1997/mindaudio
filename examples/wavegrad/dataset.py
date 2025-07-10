@@ -1,3 +1,6 @@
+# AudioDataLoader in mindspore.
+# Adapted from https://github.com/lmnt-com/wavegrad/blob/master/src/wavegrad/dataset.py
+
 from multiprocessing import cpu_count
 
 import numpy as np

@@ -1,4 +1,6 @@
-""" data """
+# AudioDataLoader in mindspore.
+# Adapted from https://github.com/kaituoxu/TasNet/blob/master/src/data.py
+
 import json
 import os
 

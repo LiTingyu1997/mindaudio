@@ -1,3 +1,5 @@
+# Train of deepspeech2 in mindspore.
+# Adapted from https://github.com/SeanNaren/deepspeech.pytorch/tree/master/deepspeech_pytorch/training.py
 """train_criteo."""
 
 import os

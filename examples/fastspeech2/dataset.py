@@ -1,3 +1,6 @@
+# LJSpeech dataloader in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/dataset.py
+
 import os
 import sys
 from multiprocessing import cpu_count

@@ -1,3 +1,6 @@
+# Layers in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/transformer/Layers.py
+
 from mindspore import nn
 
 from mindaudio.models.transformer.sublayers import (

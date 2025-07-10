@@ -1,4 +1,7 @@
-"""Cut text into single words."""
+# Copyright 2017 Johns Hopkins University (Shinji Watanabe)
+# Adapted from https://github.com/espnet/espnet/tree/master/utils/text2token.py
+#  Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
 
 from __future__ import print_function, unicode_literals
 

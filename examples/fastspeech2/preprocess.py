@@ -1,5 +1,6 @@
 # Given the path to ljspeech/wavs,
 # this script converts wav files to .npy features used for training.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/preprocessor/preprocessor.py
 
 import argparse
 import os

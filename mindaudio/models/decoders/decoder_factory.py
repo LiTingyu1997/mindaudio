@@ -1,3 +1,5 @@
+# Search in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet
 """Prediction net for ASR inference."""
 
 import mindspore

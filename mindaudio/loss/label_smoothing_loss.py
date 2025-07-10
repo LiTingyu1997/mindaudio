@@ -1,3 +1,5 @@
+# Label_smoothing_loss in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/label_smoothing_loss.py
 """Label smoothing module."""
 
 import mindspore

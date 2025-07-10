@@ -1,4 +1,7 @@
+# Positionwise feed forward in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/positionwise_feed_forward.py
 """Positionwise feed forward layer definition."""
+
 import mindspore
 import mindspore.common.dtype as mstype
 import mindspore.nn as nn

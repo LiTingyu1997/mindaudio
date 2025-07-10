@@ -1,3 +1,5 @@
+# Copited from https://github.com/ming024/FastSpeech2/blob/master/text/symbols.py
+
 from text import pinyin
 
 valid_symbols = [

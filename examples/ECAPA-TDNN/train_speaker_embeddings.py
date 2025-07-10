@@ -1,6 +1,9 @@
+# Training speaker embeddings in mindspore.
+# Adapted from https://github.com/speechbrain/speechbrain/blob/develop/recipes/VoxCeleb/SpeakerRec/train_speaker_embeddings.py
 """
 Recipe for training speaker embeddings using the VoxCeleb Dataset.
 """
+
 import math
 import os
 import pickle

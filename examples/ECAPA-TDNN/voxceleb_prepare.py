@@ -1,3 +1,5 @@
+# Data preparation in mindspore.
+# Adapted from https://github.com/speechbrain/speechbrain/blob/develop/recipes/VoxCeleb/SpeakerRec/voxceleb_prepare.py
 """
 Data preparation, from mindaudio VoxCeleb recipe.
 """

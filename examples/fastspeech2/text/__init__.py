@@ -1,4 +1,4 @@
-""" from https://github.com/keithito/tacotron """
+# Copited from from https://github.com/keithito/tacotron
 import re
 
 from text import cleaners

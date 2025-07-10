@@ -1,4 +1,5 @@
-"""ASR training process.
+"""
+ASR training process.
 
 python train.py --config_path <CONFIG_FILE>
 """

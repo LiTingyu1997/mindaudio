@@ -1,3 +1,6 @@
+# Training in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/train.py
+
 import argparse
 import ast
 import os

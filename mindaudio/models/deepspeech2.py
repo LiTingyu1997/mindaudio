@@ -1,6 +1,5 @@
-"""
-DeepSpeech2 model
-"""
+# DeepSpeech2 model in mindspore.
+# Adapted from https://github.com/SeanNaren/deepspeech.pytorch/tree/master/src/deepspeech_pytorch/model.py
 
 import math
 

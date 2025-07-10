@@ -1,3 +1,5 @@
+# Subsampling in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/subsampling.py
 """Subsampling layer definition."""
 
 import mindspore

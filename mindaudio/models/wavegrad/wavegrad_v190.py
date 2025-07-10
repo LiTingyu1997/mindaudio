@@ -1,6 +1,5 @@
-"""
-THIS FILE IS FOR MindSpore 1.9
-"""
+# WaveGrad in mindspore.
+# Adapted from https://github.com/lmnt-com/wavegrad/blob/master/src/wavegrad/model.py
 
 from math import log as ln
 
