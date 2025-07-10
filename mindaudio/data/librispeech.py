@@ -1,3 +1,5 @@
+# LibriSpeech dataloader in mindspore.
+# Adapted from https://github.com/SeanNaren/deepspeech.pytorch/blob/master/data/librispeech.py
 import argparse
 import json
 import os

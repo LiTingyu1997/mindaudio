@@ -1,3 +1,5 @@
+# Evaluation of Conv-TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/Conv-TasNet/blob/master/src/evaluate.py
 import mindspore
 import mindspore.dataset as ds
 import mindspore.ops as ops

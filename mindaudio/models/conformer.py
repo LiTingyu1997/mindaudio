@@ -1,4 +1,6 @@
-"""Definition of ASR model."""
+# Conformer in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer
+"""Definition of conformer model."""
 
 from typing import Optional, Tuple
 

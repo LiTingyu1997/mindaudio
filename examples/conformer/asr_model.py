@@ -1,3 +1,5 @@
+# Conformer in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/asr_model.py
 """Definition of ASR model."""
 
 import mindspore

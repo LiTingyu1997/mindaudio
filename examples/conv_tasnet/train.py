@@ -1,3 +1,5 @@
+# Train of Conv-TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/Conv-TasNet/blob/master/src/train.py
 import os
 
 import mindspore.dataset as ds

@@ -1,3 +1,5 @@
+# Conv-TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/Conv-TasNet/blob/master/src/conv_tasnet.py
 import argparse
 import math
 

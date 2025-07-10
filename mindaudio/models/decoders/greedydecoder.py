@@ -1,3 +1,5 @@
+# Greedydecoder of deepspeech2 in mindspore.
+# Adapted from https://github.com/SeanNaren/deepspeech.pytorch/blob/master/src/deepspeech_pytorch/decoder.py
 import Levenshtein as Lev
 import numpy as np
 from six.moves import xrange

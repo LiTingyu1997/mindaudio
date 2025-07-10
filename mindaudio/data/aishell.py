@@ -1,3 +1,5 @@
+# AISHELL dataloader in mindspore.
+# Adapted from https://github.com/speechbrain/speechbrain/blob/develop/recipes/AISHELL-1/aishell_prepare.py
 import argparse
 import csv
 import glob

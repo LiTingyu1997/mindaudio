@@ -1,3 +1,5 @@
+# WaveGrad in mindspore.
+# Adapted from https://github.com/lmnt-com/wavegrad/blob/master/src/wavegrad/model.py
 """
 THIS FILE IS FOR MindSpore 1.9
 """

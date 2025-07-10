@@ -1,3 +1,4 @@
+# Copited from https://github.com/ming024/FastSpeech2/blob/master/text/pinyin.py
 initials = [
     "b",
     "c",

@@ -1,3 +1,5 @@
+# Separation_loss in mindspore.
+# Adapted from https://github.com/kaituoxu/TasNet/blob/master/src/pit_criterion.py
 """ Loss """
 from itertools import permutations
 

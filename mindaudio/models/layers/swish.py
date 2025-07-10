@@ -1,3 +1,5 @@
+# Swish in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/swish.py
 """Swish() activation function for Conformer."""
 
 import mindspore

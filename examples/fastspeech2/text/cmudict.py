@@ -1,4 +1,4 @@
-""" from https://github.com/keithito/tacotron """
+# Copited from https://github.com/keithito/tacotron
 
 import re
 

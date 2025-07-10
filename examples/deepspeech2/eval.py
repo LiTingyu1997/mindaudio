@@ -1,3 +1,5 @@
+# Evaluation of deepspeech2 in mindspore.
+# Adapted from https://github.com/SeanNaren/deepspeech.pytorch/blob/master/deepspeech_pytorch/validation.py
 """
 Eval DeepSpeech2
 """

@@ -1,3 +1,5 @@
+# Constants in mindspore.
+# Copited from https://github.com/ming024/FastSpeech2/blob/master/transformer/Constants.py
 """Constants and tokens."""
 PAD = 0
 UNK = 1

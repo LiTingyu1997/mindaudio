@@ -1,3 +1,5 @@
+# ECAPA_TDNN in mindspore.
+# Adapted from https://github.com/speechbrain/speechbrain/blob/develop/recipes/VoxCeleb/SpeakerRec/speaker_verification_cosine.py
 """
 Recipe for training a speaker verification system based on cosine distance.
 """

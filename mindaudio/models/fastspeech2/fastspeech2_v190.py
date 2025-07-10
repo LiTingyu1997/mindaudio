@@ -1,3 +1,5 @@
+# FastSpeech2 in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/model/fastspeech2.py
 import mindspore as ms
 import mindspore.nn as nn
 import numpy as np

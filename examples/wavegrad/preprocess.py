@@ -1,3 +1,5 @@
+# Preprocess in mindspore.
+# Adapted from https://github.com/lmnt-com/wavegrad/blob/master/src/wavegrad/preprocess.py
 import sys
 from multiprocessing import Pool, cpu_count
 

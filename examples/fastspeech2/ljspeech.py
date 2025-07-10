@@ -1,3 +1,5 @@
+# LJSpeech dataloader in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/preprocessor/ljspeech.py
 import csv
 import os
 

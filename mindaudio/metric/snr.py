@@ -1,3 +1,5 @@
+# SNR in mindspore.
+# Adapted from https://github.com/kaituoxu/Conv-TasNet/blob/master/src/evaluate.py
 import numpy as np
 from mir_eval.separation import bss_eval_sources
 

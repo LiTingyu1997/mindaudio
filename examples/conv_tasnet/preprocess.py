@@ -1,3 +1,5 @@
+# Preprocess of Conv-TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/Conv-TasNet/blob/master/src/preprocess.py
 """ Convert the relevant information in the audio wav file to a json file """
 
 import argparse

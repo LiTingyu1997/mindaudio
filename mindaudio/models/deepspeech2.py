@@ -1,3 +1,5 @@
+# DeepSpeech2 in mindspore.
+# Adapted from https://github.com/SeanNaren/deepspeech.pytorch/blob/master/src/deepspeech_pytorch/model.py
 """
 DeepSpeech2 model
 """

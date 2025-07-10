@@ -1,3 +1,5 @@
+# Train of TasNet in mindspore.
+# Adapted from https://github.com/kaituoxu/TasNet/blob/master/src/train.py
 """ Train """
 import argparse
 import json

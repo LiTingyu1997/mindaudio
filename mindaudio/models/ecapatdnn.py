@@ -1,3 +1,5 @@
+# ECAPA_TDNN in mindspore.
+# Adapted from https://github.com/speechbrain/speechbrain/blob/develop/speechbrain/lobes/models/ECAPA_TDNN.py
 import mindspore as ms
 import mindspore.nn as nn
 import mindspore.ops as ops

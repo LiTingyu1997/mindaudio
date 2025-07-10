@@ -1,3 +1,5 @@
+# ScaledDotProductAttention in mindspore.
+# Adapted from https://github.com/ming024/FastSpeech2/blob/master/transformer/Modules.py
 import mindspore.numpy as msnp
 from mindspore import nn, ops
 

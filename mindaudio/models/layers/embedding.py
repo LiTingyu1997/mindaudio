@@ -1,3 +1,5 @@
+# Embedding in mindspore.
+# Adapted from https://github.com/wenet-e2e/wenet/blob/main/wenet/transformer/embedding.py
 """Positonal Encoding Module."""
 
 import math
