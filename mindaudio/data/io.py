@@ -1,3 +1,6 @@
+# Module to read / write wav files using NumPy arrays
+# Adapted from  https://github.com/scipy/scipy/tree/main/scipy/io/wavfile.py
+
 import collections
 import io
 import struct

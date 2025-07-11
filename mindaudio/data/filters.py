@@ -1,3 +1,8 @@
+# Filter bank construction
+# Adapted from https://github.com/librosa/librosa/tree/main/librosa/filters.py
+# and
+# https://github.com/speechbrain/speechbrain/blob/develop/speechbrain/processing/signal_processing.py
+
 from typing import Optional, Union
 
 try:

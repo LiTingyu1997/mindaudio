@@ -1,3 +1,6 @@
+# Time-Domain Sequential Data Augmentation Classes
+# Adapted from  https://github.com/speechbrain/speechbrain/blob/develop/speechbrain/augment/time_domain.py
+
 import random
 
 import mindspore as ms

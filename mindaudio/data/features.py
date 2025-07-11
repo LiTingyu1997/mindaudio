@@ -1,3 +1,6 @@
+# Feature extraction
+# Adapted from  https://github.com/librosa/librosa/tree/main/librosa/feature/spectral.py
+
 import mindspore as ms
 import mindspore.dataset.audio as msaudio
 import numpy as np

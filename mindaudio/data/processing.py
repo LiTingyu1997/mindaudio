@@ -1,3 +1,8 @@
+# Signal processing utilities
+# Adapted from  https://github.com/librosa/librosa/tree/main/librosa/core/audio.py
+# and
+# https://github.com/facebookresearch/AugLy/blob/main/augly/audio/functional.py
+
 import math
 
 import mindspore as ms

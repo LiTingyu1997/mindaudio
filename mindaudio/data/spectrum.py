@@ -1,3 +1,5 @@
+# Adapted from  https://github.com/librosa/librosa/tree/main/librosa/core/spectrum.py
+
 import mindspore as ms
 import mindspore.dataset.audio as msaudio
 import numpy as np
